@@ -9,6 +9,7 @@
 Installation
 
 - [Install the Intel® Distribution of OpenVINO™ toolkit for Linux*](https://software.intel.com/en-us/articles/OpenVINO-Install-Linux)
+- [Inference Tutorials Generic](https://github.com/intel-iot-devkit/inference-tutorials-generic/tree/openvino_toolkit_r3_0)
 - [Qiita](https://qiita.com/PINTO/items/5ac8f4395e190d06cfab)
 
 Techcoded
@@ -392,6 +393,27 @@ user@workstation:~/intel/computer_vision_sdk_2018.4.420/deployment_tools/demo$ .
 
 ```
 user@workstation:~/inference_engine_samples/intel64/Release$ ./classification_sample -d CPU -i /home/user/intel/computer_vision_sdk/deployment_tools/demo/../demo/w.jpg -m /home/user/openvino_models/ir/squeezenet1.1/FP32/squeezenet1.1.xml
+```
+
+### GPU
+
+```
+user@workstation:~/intel/computer_vision_sdk/deployment_tools$ cd ..
+user@workstation:~/intel/computer_vision_sdk$ cd install_dependencies/
+user@workstation:~/intel/computer_vision_sdk/install_dependencies$ ls
+install_4_14_kernel.sh          install_guide.html                  intel-opencl-18.28.11080.x86_64.rpm
+_install_all_dependencies.sh    install_NEO_OCL_driver.sh
+install_cv_sdk_dependencies.sh  intel-opencl_18.28.11080_amd64.deb
+user@workstation:~/intel/computer_vision_sdk/install_dependencies$ sudo -E su
+root@workstation:/home/user/intel/computer_vision_sdk/install_dependencies# uname -r
+4.13.0-41-generic
+root@workstation:/home/user/intel/computer_vision_sdk/install_dependencies# ./install_4_14_kernel.sh
++ grep -i rhel /etc/os-release
++ grep -i ubuntu /etc/os-release
++ sudo -E add-apt-repository ppa:teejee2008/ppa
+ 
+ More info: https://launchpad.net/~teejee2008/+archive/ubuntu/ppa
+Press [ENTER] to continue or ctrl-c to cancel adding it
 ```
 
 ## OpenVINO Docker
