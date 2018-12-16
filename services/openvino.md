@@ -1,5 +1,19 @@
 # OpenVINO
 
+- [Homepage](https://software.intel.com/en-us/openvino-toolkit)
+- [Pre Trained Models](https://software.intel.com/en-us/openvino-toolkit/documentation/pretrained-models)
+- [Inference Engine Developer Guide](https://software.intel.com/en-us/articles/OpenVINO-InferEngine)
+- [Inference Engine Samples](https://software.intel.com/en-us/articles/OpenVINO-IE-Samples)
+- [Deep Learning OpenCV](https://software.intel.com/en-us/openvino-toolkit/deep-learning-cv)
+
+Techcoded
+
+- [Make Great Computer Vision Apps with the OpenVINO™ Toolkit](https://techdecoded.intel.io/quickhits/make-great-computer-vision-apps-with-the-openvino-toolkit/#gs.jU_nPXg)
+- [OpenVINO™ Toolkit and FPGAs](https://techdecoded.intel.io/resources/openvino-toolkit-and-fpgas/#gs.eyexuLA)
+
+
+# Hello OpenVINO
+
 1. [Download](https://software.intel.com/en-us/openvino-toolkit/choose-download/free-download-linux)
 2. Decompress:
 ```
