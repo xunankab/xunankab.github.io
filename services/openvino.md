@@ -390,6 +390,10 @@ user@workstation:~/intel/computer_vision_sdk_2018.4.420/deployment_tools/demo$ .
 user@workstation:~/intel/computer_vision_sdk_2018.4.420/deployment_tools/demo$ ./demo_security_barrier_camera.sh -d MYRIAD
 ```
 
+```
+user@workstation:~/inference_engine_samples/intel64/Release$ ./classification_sample -d CPU -i /home/user/intel/computer_vision_sdk/deployment_tools/demo/../demo/w.jpg -m /home/user/openvino_models/ir/squeezenet1.1/FP32/squeezenet1.1.xml
+```
+
 ## OpenVINO Docker
 
 ```
