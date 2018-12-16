@@ -452,6 +452,20 @@ OK
 
 Downloading: 'linux-image-4.14.20-041420-generic_4.14.20-041420.201802162247_amd64.deb'... 
 OK
+...
+...
+Updating GRUB menu
+Generating grub configuration file ...
+Warning: Setting GRUB_TIMEOUT to a non-zero value when GRUB_HIDDEN_TIMEOUT is set is no longer supported.
+Found linux image: /boot/vmlinuz-4.14.20-041420-generic
+Found initrd image: /boot/initrd.img-4.14.20-041420-generic
+Found linux image: /boot/vmlinuz-4.13.0-41-generic
+Found initrd image: /boot/initrd.img-4.13.0-41-generic
+Found linux image: /boot/vmlinuz-4.13.0-38-generic
+Found initrd image: /boot/initrd.img-4.13.0-38-generic
+Adding boot menu entry for EFI firmware configuration
+done
+Installation completed. A reboot is required to use the new kernel.
 ```
 
 ## OpenVINO Docker
