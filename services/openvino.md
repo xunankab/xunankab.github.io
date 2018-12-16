@@ -9,6 +9,7 @@
 Installation
 
 - [Install the Intel® Distribution of OpenVINO™ toolkit for Linux*](https://software.intel.com/en-us/articles/OpenVINO-Install-Linux)
+- [Qiita](https://qiita.com/PINTO/items/5ac8f4395e190d06cfab)
 
 Techcoded
 
