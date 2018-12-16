@@ -239,6 +239,70 @@ Component(s) selected:
 ```
 
 ```
+Installation
+--------------------------------------------------------------------------------
+Each component will be installed individually. If you cancel the installation,
+some components might remain on your system. This installation may take several 
+minutes, depending on your system and the options you selected.
+--------------------------------------------------------------------------------
+Installing Inference Engine Runtime for Intel® FPGA component... done
+--------------------------------------------------------------------------------
+Installing Inference Engine Runtime for Intel® Gaussian Neural Accelerator
+component... done
+--------------------------------------------------------------------------------
+Installing Inference Engine Runtime for Intel® Movidius™ VPU component... done
+--------------------------------------------------------------------------------
+Installing Inference Engine Runtime for Intel® Processor Graphics component... done
+--------------------------------------------------------------------------------
+Installing Inference Engine Runtime for Intel® CPU component... done
+--------------------------------------------------------------------------------
+Installing Inference Engine Development Kit component... done
+--------------------------------------------------------------------------------
+Installing Model Optimizer Tool component... done
+--------------------------------------------------------------------------------
+Installing OpenCV Libraries Ubuntu component... done
+--------------------------------------------------------------------------------
+Installing OpenVX* Runtime component...
+--------------------------------------------------------------------------------
+Installing Pre-trained models component... done
+--------------------------------------------------------------------------------
+Installing Computer Vision Algorithms Ubuntu component... done
+--------------------------------------------------------------------------------
+Finalizing product configuration...
+--------------------------------------------------------------------------------
+
+Complete
+--------------------------------------------------------------------------------
+```
+
+```
+Intel® Distribution of OpenVINO™ toolkit 2018 R4 for Linux* has been
+successfully installed in /home/user/intel/computer_vision_sdk_2018.4.420.
+
+Next Steps:
+
+Read through the product overview to gain a better understanding of how the
+product works and find the latest updates:
+https://software.intel.com/en-us/openvino-toolkit. 
+
+Open and read the documentation that you need to configure the product for use
+on your system: 
+/home/user/intel/computer_vision_sdk_2018.4.420/documentation/OpenVINO-Install-L
+inux-online.html
+You can also find this document online: 
+https://software.intel.com/en-us/articles/OpenVINO-Install-Linux#set-the-environ
+ment-variables
+
+Run demo apps available in the
+/home/user/intel/computer_vision_sdk_2018.4.420/deployment_tools/demo folder to 
+verify the installation and learn the basics of the Intel® Distribution of
+OpenVINO™ toolkit 2018 R4 for Linux*.
+
+--------------------------------------------------------------------------------
+Press "Enter" key to quit:   
+```
+
+```
 Intel® Distribution of OpenVINO™ toolkit 2018 R4 for Linux* has been
 successfully installed in /opt/intel/computer_vision_sdk_2018.4.420.
 
