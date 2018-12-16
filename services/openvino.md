@@ -204,6 +204,41 @@ be prompted to install later
 ```
 
 ```
+Options > Pre-install Summary
+--------------------------------------------------------------------------------
+Install location:
+    /home/user/intel
+
+Component(s) selected:
+    Inference Engine                                                       246MB
+        Inference Engine Development Kit                                        
+        Inference Engine Runtime for Intel® CPU                                 
+        Inference Engine Runtime for Intel® Processor Graphics                  
+        Inference Engine Runtime for Intel® Movidius™ VPU                      
+        Inference Engine Runtime for Intel® Gaussian Neural Accelerator         
+        Inference Engine Runtime for Intel® FPGA                                
+
+    Models Optimizer                                                         3MB
+        Model Optimizer Tool                                                    
+
+    OpenCV                                                                 215MB
+        OpenCV Libraries Ubuntu                                                 
+
+    OpenVX                                                                 522MB
+        OpenVX* Runtime                                                         
+
+    Models                                                                 296MB
+        Pre-trained models                                                      
+
+    Algorithms                                                              68MB
+        Computer Vision Algorithms Ubuntu                                       
+
+   Install space required:  1.5GB
+
+--------------------------------------------------------------------------------
+```
+
+```
 Intel® Distribution of OpenVINO™ toolkit 2018 R4 for Linux* has been
 successfully installed in /opt/intel/computer_vision_sdk_2018.4.420.
 
