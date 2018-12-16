@@ -468,6 +468,41 @@ done
 Installation completed. A reboot is required to use the new kernel.
 ```
 
+## Inference Tutorials Generic
+
+- [Github](https://github.com/intel-iot-devkit/inference-tutorials-generic)
+
+```
+$ ls ~/tutorials/inference-tutorials-generic/
+user@workstation:~/tutorials/inference-tutorials-generic/face_detection_tutorial/step_2/build$ export modelDir=~/intel/computer_vision_sdk/deployment_tools/intel_models/
+```
+
+```
+# Face Detection Model - ADAS
+modName=face-detection-adas-0001
+export mFDA16=$modelDir/$modName/FP16/$modName.xml
+export mFDA32=$modelDir/$modName/FP32/$modName.xml
+
+# Face Detection Model - Retail
+modName=face-detection-retail-0004
+export mFDR16=$modelDir/$modName/FP16/$modName.xml
+export mFDR32=$modelDir/$modName/FP32/$modName.xml
+
+# Age and Gender Model
+modName=age-gender-recognition-retail-0013
+export mAG16=$modelDir/$modName/FP16/$modName.xml
+export mAG32=$modelDir/$modName/FP32/$modName.xml
+
+# Head Pose Estimation Model
+modName=head-pose-estimation-adas-0001
+export mHP16=$modelDir/$modName/FP16/$modName.xml
+export mHP32=$modelDir/$modName/FP32/$modName.xml
+```
+
+```
+user@workstation:~/tutorials/inference-tutorials-generic/face_detection_tutorial/step_2/build$ ./intel64/Release/face_detection_tutorial -m $mFDA32
+```
+
 ## OpenVINO Docker
 
 ```
