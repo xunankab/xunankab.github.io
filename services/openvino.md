@@ -6,6 +6,10 @@
 - [Inference Engine Samples](https://software.intel.com/en-us/articles/OpenVINO-IE-Samples)
 - [Deep Learning OpenCV](https://software.intel.com/en-us/openvino-toolkit/deep-learning-cv)
 
+Installation
+
+- [Install the Intel® Distribution of OpenVINO™ toolkit for Linux*](https://software.intel.com/en-us/articles/OpenVINO-Install-Linux)
+
 Techcoded
 
 - [Make Great Computer Vision Apps with the OpenVINO™ Toolkit](https://techdecoded.intel.io/quickhits/make-great-computer-vision-apps-with-the-openvino-toolkit/#gs.jU_nPXg)
