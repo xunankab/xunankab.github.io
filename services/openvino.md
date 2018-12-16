@@ -17,6 +17,9 @@ Techcoded
 - [Make Great Computer Vision Apps with the OpenVINO™ Toolkit](https://techdecoded.intel.io/quickhits/make-great-computer-vision-apps-with-the-openvino-toolkit/#gs.jU_nPXg)
 - [OpenVINO™ Toolkit and FPGAs](https://techdecoded.intel.io/resources/openvino-toolkit-and-fpgas/#gs.eyexuLA)
 
+To Review
+
+- [OpenVINO™ Model Server](https://github.com/IntelAI/OpenVINO-model-server)
 
 # Hello OpenVINO
 
@@ -414,6 +417,34 @@ root@workstation:/home/user/intel/computer_vision_sdk/install_dependencies# ./in
  
  More info: https://launchpad.net/~teejee2008/+archive/ubuntu/ppa
 Press [ENTER] to continue or ctrl-c to cancel adding it
+```
+
+```
++ sudo -E ukuu --install v4.14.20
+ukuu v18.9
+Distribution: Ubuntu 16.04.4 LTS
+Architecture: amd64
+Running kernel: 4.13.0-41-generic
+Kernel version: 4.13.0.41.46
+Cache: /root/.cache/ukuu
+Temp: /tmp/ukuu/MsN4U5Sc
+aria2c version: 1.19.0
+
+Fetching index...
+
+▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ 100 % 
+
+----------------------------------------------------------------------
+Found installed: 4.13.0-38.43~16.04.1
+Found installed: 4.13.0-41.46~16.04.1
+Found installed: 4.13.0.41.60
+----------------------------------------------------------------------
+
+Downloading: 'linux-headers-4.14.20-041420_4.14.20-041420.201802162247_all.deb'... 
+OK
+
+Downloading: 'linux-image-4.14.20-041420-generic_4.14.20-041420.201802162247_amd64.deb'... 
+OK
 ```
 
 ## OpenVINO Docker
