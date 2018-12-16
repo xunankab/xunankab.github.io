@@ -20,6 +20,13 @@ Techcoded
 To Review
 
 - [OpenVINO™ Model Server](https://github.com/IntelAI/OpenVINO-model-server)
+- [Edge Analytcis FaaS](https://github.com/intel/Edge-Analytics-FaaS)
+
+Docker
+
+- [OpenVINO Dev Utils](https://github.com/byungsoo/openvino_dev_utils)
+- [OpenVINO ROS Wrapper](https://github.com/chaoli2/ros_openvino_toolkit)
+- [OpenVINO Ubuntu 18.04](https://github.com/signatrix/openvino_install)
 
 # Hello OpenVINO
 
