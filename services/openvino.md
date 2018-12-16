@@ -340,6 +340,37 @@ README.txt  car.png  car_1.bmp	demo_security_barrier_camera.sh  demo_squeezenet_
 target_precision = FP32
 ```
 
+```
+user@workstation:~/intel/computer_vision_sdk_2018.4.420/deployment_tools/demo$ sudo cp ../inference_engine/external/97-usbboot.rules  /etc/udev/rules.d/
+user@workstation:~/intel/computer_vision_sdk_2018.4.420/deployment_tools/demo$ sudo udevadm control --reload-rules
+user@workstation:~/intel/computer_vision_sdk_2018.4.420/deployment_tools/demo$ sudo udevadm trigger
+user@workstation:~/intel/computer_vision_sdk_2018.4.420/deployment_tools/demo$ sudo ldconfig
+```
+
+Connect
+
+```
+user@workstation:~/intel/computer_vision_sdk_2018.4.420/deployment_tools/demo$ dmesg
+[403218.065036] usb 2-1: new high-speed USB device number 25 using xhci_hcd
+[403218.205595] usb 2-1: New USB device found, idVendor=03e7, idProduct=2150
+[403218.205599] usb 2-1: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[403218.205601] usb 2-1: Product: Movidius MA2X5X
+[403218.205603] usb 2-1: Manufacturer: Movidius Ltd.
+[403218.205605] usb 2-1: SerialNumber: 03e72150
+[404178.943151] usb 2-1: USB disconnect, device number 25
+[404180.426507] usb 2-1: new high-speed USB device number 26 using xhci_hcd
+[404180.567012] usb 2-1: New USB device found, idVendor=03e7, idProduct=2150
+[404180.567015] usb 2-1: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[404180.567017] usb 2-1: Product: Movidius MA2X5X
+[404180.567019] usb 2-1: Manufacturer: Movidius Ltd.
+[404180.567021] usb 2-1: SerialNumber: 03e72150
+```
+
+```
+user@workstation:~/intel/computer_vision_sdk_2018.4.420/deployment_tools/demo$ ./demo_security_barrier_camera.sh -d CPU
+user@workstation:~/intel/computer_vision_sdk_2018.4.420/deployment_tools/demo$ ./demo_security_barrier_camera.sh -d MYRIAD
+```
+
 ## OpenVINO Docker
 
 ```
