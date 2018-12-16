@@ -203,6 +203,44 @@ be prompted to install later
 --------------------------------------------------------------------------------
 ```
 
+```
+Intel® Distribution of OpenVINO™ toolkit 2018 R4 for Linux* has been
+successfully installed in /opt/intel/computer_vision_sdk_2018.4.420.
+
+Next Steps:
+
+Read through the product overview to gain a better understanding of how the
+product works and find the latest updates:
+https://software.intel.com/en-us/openvino-toolkit. 
+
+Open and read the documentation that you need to configure the product for use
+on your system: 
+/opt/intel/computer_vision_sdk_2018.4.420/documentation/OpenVINO-Install-Linux-o
+nline.html
+You can also find this document online: 
+https://software.intel.com/en-us/articles/OpenVINO-Install-Linux#set-the-environ
+ment-variables
+
+Run demo apps available in the
+/opt/intel/computer_vision_sdk_2018.4.420/deployment_tools/demo folder to verify
+the installation and learn the basics of the Intel® Distribution of OpenVINO™
+toolkit 2018 R4 for Linux*.
+
+--------------------------------------------------------------------------------
+Press "Enter" key to quit: 
+```
+
+```
+# cd /opt/intel/computer_vision_sdk_2018.4.420/deployment_tools/demo
+# ls
+README.txt  car.png  car_1.bmp	demo_security_barrier_camera.sh  demo_squeezenet_download_convert_run.sh  squeezenet1.1.labels
+```
+
+```
+# bash demo_squeezenet_download_convert_run.sh
+target_precision = FP32
+```
+
 ## OpenVINO Docker
 
 ```
