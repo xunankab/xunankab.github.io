@@ -2,6 +2,7 @@
 
 - [Homepage](https://software.intel.com/en-us/openvino-toolkit)
 - [Release Notes](https://software.intel.com/en-us/articles/OpenVINO-RelNotes)
+- [Porting](https://software.intel.com/en-us/blogs/2018/05/14/how-to-port-your-application-from-intelr-computer-vision-sdk-2017-r3-beta-to-intelr)
 - [Pre Trained Models](https://software.intel.com/en-us/openvino-toolkit/documentation/pretrained-models)
 - [Inference Engine Developer Guide](https://software.intel.com/en-us/articles/OpenVINO-InferEngine)
 - [Inference Engine Samples](https://software.intel.com/en-us/articles/OpenVINO-IE-Samples)
