@@ -6,6 +6,7 @@
 - [Pre Trained Models](https://software.intel.com/en-us/openvino-toolkit/documentation/pretrained-models)
 - [Inference Engine Developer Guide](https://software.intel.com/en-us/articles/OpenVINO-InferEngine)
 - [Inference Engine Samples](https://software.intel.com/en-us/articles/OpenVINO-IE-Samples)
+- [Using the Model Optimizer to Convert TensorFlow* Models](https://software.intel.com/en-us/articles/OpenVINO-Using-TensorFlow)
 - [Deep Learning OpenCV](https://software.intel.com/en-us/openvino-toolkit/deep-learning-cv)
 
 Installation
