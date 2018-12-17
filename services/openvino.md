@@ -21,6 +21,7 @@ Techcoded
 
 To Review
 
+- [Python](https://github.com/opencv/open_model_zoo/issues/20)
 - [Smart Video Workshop](https://github.com/intel-iot-devkit/smart-video-workshop)
 - [Parking Lot Counter](https://github.com/intel-iot-devkit/parking-lot-counter-cpp)
 - [OpenVINO™ Model Server](https://github.com/IntelAI/OpenVINO-model-server)
