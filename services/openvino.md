@@ -21,6 +21,8 @@ Techcoded
 
 To Review
 
+- [Smart Video Workshop](https://github.com/intel-iot-devkit/smart-video-workshop)
+- [Parking Lot Counter](https://github.com/intel-iot-devkit/parking-lot-counter-cpp)
 - [OpenVINO™ Model Server](https://github.com/IntelAI/OpenVINO-model-server)
 - [Edge Analytcis FaaS](https://github.com/intel/Edge-Analytics-FaaS)
 
