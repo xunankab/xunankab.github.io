@@ -1,6 +1,7 @@
 # OpenVINO
 
 - [Homepage](https://software.intel.com/en-us/openvino-toolkit)
+- [Release Notes](https://software.intel.com/en-us/articles/OpenVINO-RelNotes)
 - [Pre Trained Models](https://software.intel.com/en-us/openvino-toolkit/documentation/pretrained-models)
 - [Inference Engine Developer Guide](https://software.intel.com/en-us/articles/OpenVINO-InferEngine)
 - [Inference Engine Samples](https://software.intel.com/en-us/articles/OpenVINO-IE-Samples)
