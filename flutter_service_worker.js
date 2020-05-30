@@ -10,7 +10,7 @@ const RESOURCES = {
 "assets/AssetManifest.json": "c5c727be5b5e30f6b1b3710c2274c8fe",
 "assets/LICENSE": "d4efa58893e6b7e625e9f8997fc19c15",
 "assets/FontManifest.json": "3b88ded64dd599a6fd51214483163f4b",
-"main.dart.js": "650c1da9a6c24c9a9490c2baaf26176c",
+"main.dart.js": "70f6e8c0c33e4eb14bf79ea54fbdd230",
 "manifest.json": "bbf096d4b21132e3de3a45fec751771a",
 "index.html": "581ff3868289c94a12b2d3de931cb27f",
 "/": "581ff3868289c94a12b2d3de931cb27f",
